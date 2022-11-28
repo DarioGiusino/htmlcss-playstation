@@ -12,7 +12,7 @@
 </head>
 <body>
     <!-- HEADER -->
-    <header>
+    <header class="position-sticky top-0 start-0">
         <!-- top header -->
         <div class="container-fluid bg-black">
             <div class="row">
@@ -23,16 +23,70 @@
                 </div>
             </div>
         </div>
-
         <!-- bottom header -->
-        <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-between align-items-center" id="navbarNavDropdown">
+                <!-- left navbar -->
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown link
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <!-- right navbar -->
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown link
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                        <button type="button" class="btn btn-secondary">Secondary</button>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/lens.svg" alt="lens" width="35">
+                        </a>
+                    </li>
+                  </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
 
+    <!-- MAIN JUMBOTRON -->
+    <section id="jumbotron">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col"></div>
                 <div class="col"></div>
             </div>
         </div>
-    </header>
+    </section>
     
 </body>
 </html>
