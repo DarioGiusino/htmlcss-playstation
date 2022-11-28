@@ -37,7 +37,8 @@ footer{
     min-height: 50px;
 }
 
-section{
+section, footer{
     border: 1px dashed green;
     min-height: 500px;
+    padding: 3rem 0;
 }
