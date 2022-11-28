@@ -3,10 +3,16 @@ header{
 }
 
 
-.top-jumbotron{
+.main-jumbotron{
     min-height: 300px;
     border: 1px solid red;
     background-image: url(../img/jumbo-bg.png);
+}
+
+.upcoming-jumbotron{
+    min-height: 300px;
+    border: 1px solid red;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
 
