@@ -1,5 +1,38 @@
-header{
-    /* background-color: #d7d7d7; */
+/* UTILITIES */
+
+    /* styled buttons */
+.header-btn{
+    background-color: #363636;
+    color: #fff;
+}
+
+.jumbo-btn{
+    background-color: #cd3d0f;
+    color: #fff;
+}
+
+.section-btn{
+    background-color: #2d64e6;
+    color: #fff;
+}
+
+.ps-plus-btn{
+    background-color: #d9dadc;
+    color: #3469e6;
+}
+
+.ps-now-btn{
+    background-color: #fff ;
+    color: #000;
+}
+
+/* HEADER */
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.nav-link:focus, .nav-link:hover{
+    color: #000;
 }
 
 
