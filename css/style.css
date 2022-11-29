@@ -1,4 +1,8 @@
 /* GENERICS */
+body, button{
+    font-weight: 600!important;
+}
+
 header{
     z-index: 1;
 }
