@@ -3,6 +3,10 @@ body, button{
     font-weight: 600!important;
 }
 
+section, footer{
+    padding: 3rem 0;
+}
+
 header{
     z-index: 1;
 }
@@ -127,27 +131,4 @@ a{
 
 footer li{
     margin-bottom: 0.5rem;
-}
-
-
-
-
-
-
-
-/* !! stucture utilities */
-
-.row{
-    border: 1px dashed violet;
-}
-
-[class^=col]{
-    border: 1px solid blue;
-    min-height: 50px;
-}
-
-section, footer{
-    border: 1px dashed green;
-    min-height: 500px;
-    padding: 3rem 0;
 }
