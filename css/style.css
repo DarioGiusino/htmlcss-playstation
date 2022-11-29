@@ -105,7 +105,7 @@ a{
 
 /* JUMBOTRONs */
 .jumbo{
-    height: 600px;
+    height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
@@ -131,4 +131,13 @@ a{
 
 footer li{
     margin-bottom: 0.5rem;
+}
+
+/* BONUS HOVER EFFECTS */
+    /* ps5 section */
+.ps5-card:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+    opacity: 1!important;
+    border-bottom: 1px solid #1d82d3;
 }
