@@ -35,18 +35,25 @@
     color: #000;
 }
 
+/* JUMBOTRONs */
+.jumbo{
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
 
-.main-jumbotron{
-    min-height: 300px;
-    border: 1px solid red;
+.main-jumbo{
     background-image: url(../img/jumbo-bg.png);
 }
 
-.upcoming-jumbotron{
-    min-height: 300px;
-    border: 1px solid red;
+.upcoming-jumbo{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
+
+
+
+
 
 footer{
     min-height: 500px;
