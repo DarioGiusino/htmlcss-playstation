@@ -94,15 +94,6 @@ a{
     background-color: #00439c;
 }
 
-/* HEADER */
-.navbar-toggler:focus{
-    box-shadow: none;
-}
-
-.nav-link:focus, .nav-link:hover{
-    color: #000;
-}
-
 /* JUMBOTRONs */
 .jumbo{
     height: 700px;
@@ -133,11 +124,56 @@ footer li{
     margin-bottom: 0.5rem;
 }
 
-/* BONUS HOVER EFFECTS */
+/* BONUS HOVER/FOCUS EFFECTS */
+   
+    /* HEADER */
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.nav-link:focus, .nav-link:hover{
+    color: #000;
+}
     /* ps5 section */
-.ps5-card:hover{
+    .ps5-card:hover{
     transform: scale(0.9);
     cursor: pointer;
     opacity: 1!important;
     border-bottom: 1px solid #1d82d3;
+}
+
+    /* buttons */
+.header-btn:hover{
+    background-color: #363636;
+    color: #fff;
+    border: 1px solid #fff;
+    outline: 1px solid #363636;
+}
+
+.jumbo-btn:hover{
+    background-color: #cd3d0f;
+    color: #fff;
+    border: 1px solid #000;
+    outline: 1px solid #cd3d0f;
+}
+
+.section-btn:hover{
+    background-color: #2d64e6;
+    color: #fff;
+    border: 1px solid #fff;
+    outline: 1px solid #2d64e6;
+}
+
+.ps-plus-btn:hover{
+    background-color: #d9dadc;
+    color: #3469e6;
+    border: 1px solid #bebcbb;
+    outline: 1px solid #d9dadc;
+}
+
+.ps-now-btn:hover{
+    background-color: #fff ;
+    color: #000;
+    border: 1px solid #161c3b;
+    outline: 1px solid #fff;
 }
