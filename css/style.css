@@ -61,10 +61,14 @@ p{
     font-size: 25px;
 }
 
+    /* background utilities */
+.ps-plus-bg{
+    background-color: #bebcbb;
+}
 
-
-
-
+.ps-now-bg{
+    background-color: #161c3b;
+}
 
 /* HEADER */
 .navbar-toggler:focus{
