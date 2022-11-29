@@ -25,6 +25,10 @@ p{
     margin-bottom: 1.25rem;
 }
 
+a{
+    display: inline-block;
+}
+
 /* UTILITIES */
 
     /* styled buttons */
@@ -69,6 +73,10 @@ p{
     font-size: 25px;
 }
 
+.footer-copyright{
+    font-size: 0.8rem;
+}
+
     /* background utilities */
 .ps-plus-bg{
     background-color: #bebcbb;
@@ -76,6 +84,10 @@ p{
 
 .ps-now-bg{
     background-color: #161c3b;
+}
+
+.footer-bg{
+    background-color: #00439c;
 }
 
 /* HEADER */
@@ -103,13 +115,18 @@ p{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
+/* FOOTER */
+.footer-language::before{
+    content: url('../img/language-globe.svg');
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: sub;
+    margin-right: 10px;
+}
 
-
-
-
-footer{
-    min-height: 500px;
-    background-color: #00439c;
+footer li{
+    margin-bottom: 0.5rem;
 }
 
 
