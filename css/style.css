@@ -150,6 +150,18 @@ footer li{
     outline: 2px solid #1d82d3;
 }
 
+    /* upcoming section */
+.upcoming-card{
+    transition: transform 0.2s linear;
+}
+    
+.upcoming-card:hover{
+    transform: translateY(-9px);
+    cursor: pointer;
+    outline: 2px solid #1d82d3;
+    border-radius: 15px;
+}
+
     /* ps5 section */
 .ps5-card:hover{
     transform: scale(0.9);
